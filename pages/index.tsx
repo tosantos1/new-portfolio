@@ -2,6 +2,7 @@ import { Avatar, Button, Center, Flex, Heading, HStack, IconButton, VStack } fro
 
 import { FiGithub, FiLinkedin } from 'react-icons/fi'
 
+import Slider from '../components/Slider'
 
 
 export default function Home() {
@@ -34,7 +35,9 @@ export default function Home() {
           </HStack>
           
         </VStack>
+        
       </Center>
+      <Slider />
     </Flex>
   )
 }
