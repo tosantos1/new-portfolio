@@ -1,4 +1,4 @@
-import { Avatar, Button, Center, Flex, Heading, HStack, IconButton, VStack } from "@chakra-ui/react";
+import { Avatar, Button, Center, Flex, Heading, HStack, IconButton, Link, VStack } from "@chakra-ui/react";
 
 import { FiGithub, FiLinkedin } from 'react-icons/fi'
 
@@ -18,24 +18,29 @@ export default function Home() {
               <p>Tiago Oliveira</p>
               <p>tiagolivesan@outlook.com</p>
               <HStack>
-            <IconButton
-              bg="#333"
-              aria-label="Github"
-              _hover={{opacity: 0.8}}
-              icon={<FiGithub />}
-            />
-            <IconButton
-              colorScheme="linkedin"
-              aria-label="Linkedin"
-              _hover={{opacity: 0.8}}
-              icon={<FiLinkedin />}
-            />
-          </HStack>
+                <Link href="https://github.com/tosantos1">
+                  <IconButton
+                    bg="#333"
+                    aria-label="Github"
+                    _hover={{ opacity: 0.8 }}
+                    icon={<FiGithub />}
+                  />
+                </Link>
+                <Link href="https://www.linkedin.com/in/tiagolivesan/">
+                  <IconButton
+
+                    colorScheme="linkedin"
+                    aria-label="Linkedin"
+                    _hover={{ opacity: 0.8 }}
+                    icon={<FiLinkedin />}
+                  />
+                </Link>
+              </HStack>
             </VStack>
           </HStack>
-          
+
         </VStack>
-        
+
       </Center>
       <Slider />
     </Flex>
