@@ -1,7 +1,7 @@
 import { Badge, Box, Flex, Heading, VStack, IconButton, Image, Link, Tab, TabList, TabPanel, TabPanels, Tabs, HStack } from "@chakra-ui/react";
 import { FiGithub, FiLink } from 'react-icons/fi'
 
-export default function projetos() {
+export function Projetos() {
 
     return (
         <Flex direction="column" maxW="1200px" margin="0 auto">
@@ -78,7 +78,7 @@ export default function projetos() {
                                     </VStack>
                                 </Box>
                             </Box>
-                            
+
                         </HStack>
 
                     </TabPanel>
