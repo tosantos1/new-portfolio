@@ -25,7 +25,7 @@ export default function Slider() {
                    <Projetos />
                 </SwiperSlide>
                 <SwiperSlide>
-                <Projetos />
+                    <Projetos />
                 </SwiperSlide>
 
             </Swiper>
