@@ -7,7 +7,7 @@ import Slider from '../components/Slider'
 
 export default function Home() {
   return (
-    <Flex direction="column" maxW="1200px" margin="0 auto">
+    <Flex direction="column" maxW="1400px" margin="0 auto">
       <Center>
         <VStack mt={4}>
           <Heading size="lg" p={2}>Bem vindos 👊</Heading>
@@ -42,6 +42,8 @@ export default function Home() {
         </VStack>
 
       </Center>
+      <Heading mb="8">Projetos</Heading>
+
       <Slider />
     </Flex>
   )
